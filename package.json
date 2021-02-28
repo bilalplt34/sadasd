@@ -1,0 +1,38 @@
+{
+  "name": "music-bot-example",
+  "version": "1.1.0",
+  "description": "GamerWolf Tarafından Hazırlanan Youtube Eğitimimden Bir Müzik Botu",
+  "main": "gamerwolf.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ."
+  },
+  "repository": {
+  },
+  "keywords": [
+    "JavaScript",
+    "NodeJS",
+    "Npm",
+    "Zhycorp"
+  ],
+  "author": "iCrawl",
+  "license": "by-nc-nd/4.0",
+  "bugs": {
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "dependencies": {
+    "@discordjs/opus": "^0.3.3",
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "node-opus": "^0.3.3",
+    "opusscript": "^0.0.8",
+    "simple-youtube-api": "^5.2.1",
+    "ytdl-core": "^4.4.5"
+  },
+  "optionalDependencies": {
+    "@discordjs/uws": "^11.149.1"
+  }
+}
